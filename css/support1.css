@@ -1,0 +1,233 @@
+
+
+.slideshow{
+    background-color: black;
+    height: 550px;
+    position:relative;
+    width: 90%;
+   
+}
+#move .slideshow{
+  border-style: solid;
+  border-color: black;
+  border-width: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  -o-box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+.myslides{
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 100%;
+}
+.front{
+    clear: both;
+    position: absolute;
+    text-align: center;
+    margin-left: 40%;
+    text-size-adjust: 80px;
+}
+.subjects{
+    position: relative;
+    clear: both;
+    margin-top:4%;
+    width: 90%;
+    height:550px;
+    background-color: snow;
+}
+.gallery {
+    margin-top:10%;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 350px;
+  }
+  
+.gallery:hover {
+    border: 15px solid #777;
+    box-shadow: tomato;
+  }
+  
+.gallery img {
+    width: 350px;
+    height: 350px;
+  }
+  
+.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.featureslist{
+    background-color: navy;
+    height:670px;
+    width:90%;
+    position:static;
+    font-size:13px;
+}
+.features h2{
+    font-size: 30px;
+}
+#content1{
+    margin-top: 4%;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 5px;
+  background-color: whitesmoke;
+  float: left;
+  width: 30%;
+  height: 200px;
+  margin-left: 17%;
+}
+#content2{
+    margin-top: 4%;
+    border: 1px solid black;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    float: right;
+    width: 30%;
+    height: 200px;
+    margin-right: 17%;
+  }
+#content3{
+    clear: both;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: whitesmoke;
+    float: left;
+    width: 30%;
+    height: 200px;
+    margin-left:17%;
+  }
+#content4{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: whitesmoke;
+    float: right;
+    width: 30%;
+    height: 200px;
+    margin-right: 17%;
+  }
+  #content5{
+    clear: both;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: whitesmoke;
+    float: left;
+    width: 30%;
+    height: 200px;
+    margin-left:17%;
+  }
+#content6{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: whitesmoke;
+    float: right;
+    width: 30%;
+    height: 200px;
+    margin-right: 17%;
+  }
+  .fa-graduation-cap{
+      font-size: 40px;
+      padding:5px;
+  }
+  .fa-flask{
+      font-size: 40px;
+      padding:5px;
+  }
+  .fa-bus{
+      font-size: 40px;
+      padding:5px;
+  }
+  .fa-language{
+      font-size: 40px;
+      padding:5px;
+  }
+  .fa-life-ring{
+      font-size: 40px;
+      padding: 5px;
+  }
+  .fa-pie-chart{
+    font-size: 40px;
+    padding: 5px;
+}
+  .contenttext{
+      margin-right: 5%;
+      margin-left: 5%;
+  }
+  .slideshow-container {
+    position: relative;
+    background: #f1f1f1f1;
+    width: 90%;
+    margin-top: 50px;
+    height: 250px;
+  }
+  
+  .motivation {
+    display: none;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  .dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    margin-right: 90px;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  q {font-style: italic;}
+  
+  .author {color: cornflowerblue;
+}
+

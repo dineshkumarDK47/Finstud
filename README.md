@@ -1,3 +1,1 @@
-# Finstud
-
-Financial and Investment Ideas website Using PHP and Mysql
+ Using PHP and Mysql
